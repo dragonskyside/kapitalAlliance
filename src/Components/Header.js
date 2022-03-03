@@ -1,4 +1,7 @@
 import React from "react"
+import { FaTelegram, FaTwitter, FaDiscord } from "react-icons/fa"
+
+
 
 function Header(props) {
   return (
@@ -13,6 +16,14 @@ function Header(props) {
        <a href="#" className="inline-block p-3 text-stone hover:text-yellowsun mr-20">Faq</a>
        <a href="#" className="inline-block p-3 text-stone hover:text-yellowsun mr-20 text-lg">NFT Whitelist</a>
        <a href="#" className="inline-block p-3 text-stone hover:text-yellowsun mr-20 text-lg">Translations</a>
+       <a href="#" className="mr-5 mt-5"><FaTwitter/></a>
+       <a href="#" className="mr-5 mt-5"><FaTelegram/></a>
+       <a href="#" className="mr-5 mt-5"><FaDiscord/></a>
+
+      
+      
+       
+      
       
      </div>
  
