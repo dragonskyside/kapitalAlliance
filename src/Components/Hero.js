@@ -28,7 +28,7 @@ function Hero() {
                 </p>
             </div>
             <div className="">
-                <h2 className='capitalize'>Better terms on deals</h2>
+                <h2 className='capitalize'>Better terms</h2>
                 <p className='text-sm mb-4'>Getting in early and making high volume investments usually means obtaining favourable terms on deals</p>
             </div>
 

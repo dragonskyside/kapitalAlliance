@@ -5,6 +5,7 @@ import './tailwind.css';
 import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import Nft from './Components/Nft';
+import Faq from './Components/Faq';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Hero />
 
       <Nft />
+
+      <Faq/>
      
 
       <Footer />
