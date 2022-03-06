@@ -5,7 +5,10 @@ import './tailwind.css';
 import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import Nft from './Components/Nft';
-import Faq from './Components/Faq';
+import { accordionData } from './Utils/content'
+import Accordion from './Components/Accordion';
+
+
 
 function App() {
   return (
@@ -16,8 +19,17 @@ function App() {
 
       <Nft />
 
-      <Faq/>
-     
+      <div className="h-screen font-bold mono mx-12 my-24 cursor-pointer">
+        <h1>Frequently asked Questions</h1>
+        <div className="accordion w-50">
+          {accordionData.map(({ title, content }) => (
+            <Accordion title={title} content={content} />
+          ))
+          }
+          </div>
+        </div>
+
+ 
 
       <Footer />
 
