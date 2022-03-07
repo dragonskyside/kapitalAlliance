@@ -6,6 +6,7 @@ import { useState } from "react";
 
 const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
+  
 
   return (
     <div className="accordion-item py-2 px-4 ml-8 font-mono">

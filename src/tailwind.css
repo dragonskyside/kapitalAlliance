@@ -420,6 +420,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .m-4 {
   margin: 1rem;
 }
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -428,8 +436,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-.ml-20 {
-  margin-left: 5rem;
+.ml-8 {
+  margin-left: 2rem;
 }
 .mr-10 {
   margin-right: 2.5rem;
@@ -476,11 +484,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .flex {
   display: flex;
 }
-.h-12 {
-  height: 3rem;
-}
 .h-screen {
   height: 100vh;
+}
+.h-12 {
+  height: 3rem;
 }
 .w-full {
   width: 100%;
@@ -493,6 +501,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-48 {
   width: 12rem;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 .justify-center {
   justify-content: center;
@@ -509,6 +520,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-yellowsun {
   --tw-border-opacity: 1;
   border-color: rgb(249 184 63 / var(--tw-border-opacity));
+}
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 .bg-gray-200 {
   --tw-bg-opacity: 1;
@@ -539,6 +554,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p-20 {
   padding: 5rem;
 }
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -546,10 +569,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 .text-center {
   text-align: center;
