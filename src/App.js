@@ -19,7 +19,7 @@ function App() {
 
       <Nft />
 
-      <div className="h-screen font-bold mono mx-12 my-24 cursor-pointer">
+      <div className="h-screen font-bold mono mx-12 my-24 cursor-pointer bg-slate-400">
         <h1>Frequently asked Questions</h1>
         <div className="accordion w-50">
           {accordionData.map(({ title, content }) => (

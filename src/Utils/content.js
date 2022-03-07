@@ -36,13 +36,17 @@ export const accordionData = [
       content: `In proportion to holdings by payment in stable coin or btc`
     },
     {
+      title: '10. It\'s a bear market.',
+      content: `There is no firm evidence of that. Besides, great companies are born in a bear when assets are cheap and mispriced and bold managers buy the fear.`
+    },
+    {
       title: '10. What about legals?',
       content: `We are working to incorporate in a crypto friendly jurisdiction. This will occur after our NFT launch`
     },
 
     {
       title: '11. Whats up with the NFT launch ?',
-      content: `Kapital Alliance has a pioneer series of NFTs planned for launch. Five thousand pieces are planned with a reserve price of 0.4 Eth. Proceeds from the launch will seed the treasury. Holders will receive governance tokens, have special rights within the system including a share of proceeds. Details are available on the NFT page which will be updated regularly.`
+      content: `Kapital Alliance has a pioneer series of NFTs planned for launch. Five thousand pieces are planned with a reserve price of 0.5 Eth. Proceeds from the launch will seed the treasury. Holders will receive governance tokens, have special rights within the system including a share of proceeds. Details are available on the NFT page which will be updated regularly.`
     },
     
 

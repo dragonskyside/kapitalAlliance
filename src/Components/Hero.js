@@ -9,7 +9,7 @@ function Hero() {
         {/* Left side */}
         <div className="w-1/2 text-2xl font-bold">
             <h2 className='font-mono text-4xl mt-24 mx-4 text-yellowsun'>Kapital Alliance DAO</h2>
-            <p className='font-mono my-12 mx-4 mb text-yellowsun'> A decentralized autonomous organization (DAO) for scalable global investments facilitated by blockchain technology. <br/><br/> Community members  a.k.a 'kapitalists' contribute to collectively make investments in web3 projects and high growth, cash flow positive businesses. <br/><br/> No more going solo, missing out on opportunities or getting dumped on by whales. Invest as part of a community.<br/><br/> Join us as we build the future of the internet with globally scalable opportunities for everyone. </p>
+            <p className='font-mono my-12 mx-4 mb text-yellowsun'> A decentralized autonomous organization (DAO) for scalable investments facilitated by blockchain technology. <br/><br/> Community members  a.k.a 'kapitalists' contribute to collectively make investments in web3 projects and high growth, cash flow positive businesses. <br/><br/> No more going solo, missing out on opportunities or getting dumped on by whales. Invest as part of a community.<br/><br/> Join us as we build the future of the internet with globally scalable opportunities for everyone. </p>
             <img src="images/icons_btn-whitepaper.png" alt="NFT" className='w-48 m-4 py-24'></img>
         </div>
 
