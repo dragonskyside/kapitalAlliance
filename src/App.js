@@ -7,6 +7,7 @@ import Hero from './Components/Hero';
 import Nft from './Components/Nft';
 import { accordionData } from './Utils/content'
 import Accordion from './Components/Accordion';
+import Miscellany from './Components/Miscellany';
 
 
 
@@ -19,15 +20,17 @@ function App() {
 
       <Nft />
 
-      <div id="faq" className="h-screen font-bold mono mx-12 my-24 cursor-pointer bg-slate-400">
-        <h1>Frequently asked Questions</h1>
-        <div className="accordion w-50">
+      <div id="faq" className="min-h-screen font-bold mono cursor-pointer p-40 text-yellowsun   bg-lightblack">
+        <h1 className='text-3xl'>Frequently Asked Questions</h1>
+        <div className="accordion text-xl text-white">
           {accordionData.map(({ title, content }) => (
             <Accordion title={title} content={content} />
           ))
           }
           </div>
         </div>
+
+        <Miscellany />
 
  
 
