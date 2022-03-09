@@ -2,7 +2,7 @@ import React from 'react'
 
 function Nft() {
   return (
-    <div id="nft" className="flex justify-between font-mono p-20 w-full h-screen bg-webphoto bg-cover bold bg-center" cursor-pointer>
+    <div id="nft" className="flex justify-between font-mono p-20 w-full h-screen bg-cover bold bg-center" cursor-pointer style={{ backgroundImage: "url(/images/webphoto.jpg)"}}>
       
        {/* <div className="">
        <img src="images/midas.webp" h-90 w-75 alt="NFT" className='w-48 m-4 py-24'></img></div> */}

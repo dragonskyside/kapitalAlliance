@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 function Hero() {
   return (
-    <div id="home" className="flex justify-between p-20 w-full h-screen bg-webphoto bg-cover bg-center">
+    <div id="home" className="flex justify-between p-20 w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url(/images/webphoto.jpg)"}}>
       
       
 
