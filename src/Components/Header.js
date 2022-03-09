@@ -1,13 +1,30 @@
-import React from "react"
-import { FaTelegram, FaTwitter, FaDiscord } from "react-icons/fa"
-import { Link } from 'react-scroll'
+import React, { useState } from "react";
+import { FaTelegram, FaTwitter, FaDiscord } from "react-icons/fa";
+import { Link } from 'react-scroll';
+
+
 
 
 
 function Header(props) {
+
+  const [nav, setnav] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 300) {
+      setnav(true);
+    } else {
+      setnav(false);
+    }
+  };
+
+  window.addEventListener('scroll', changeBackground);
+
+ 
+
   return (
    
-     <div className="fixed font-mono bg-transparent text-white p-4 flex justify-center opacity-100 text-l w-full">
+     <div className= {nav ? 'nav active' : 'nav'}>
        <Link to="home" href="#" activeClass="active" spy={true} smooth={true} duration={1200} className="inline-block p-3 text-stone hover:text-yellowsun mr-10 text-2xl font-bold">Kapital Alliance</Link>
        <Link to="home" href="#" activeClass="active" spy={true} smooth={true} duration={1200} className="inline-block p-3 text-stone hover:text-yellowsun mr-20">Home</Link>
 
@@ -24,7 +41,7 @@ function Header(props) {
 
 
        <Link href="#" className="inline-block p-3 text-stone hover:text-yellowsun mr-20 text-lg">NFT Whitelist</Link>
-       <Link href="#" className="inline-block p-3 text-stone hover:text-yellowsun mr-20 text-lg">Translations</Link>
+       {/* <Link href="#" className="inline-block p-3 text-stone hover:text-yellowsun mr-20 text-lg">Translations</Link> */}
        <Link href="#" className="inline-block p-3 text-stone hover:text-yellowsun mr-20">Download <br/>Whitepaper</Link>
        <Link href="#" className="mr-5 mt-5 xl"><FaTwitter/></Link>
        <Link href="#" className="mr-5 mt-5"><FaTelegram /></Link>
