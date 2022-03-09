@@ -1,4 +1,4 @@
-// This is the FAQ page 
+
 
 import { useState } from "react";
 
