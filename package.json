@@ -15,8 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "engines" : { 
-    "npm" : ">=7.0.0",
-    "node" : ">=16.0.0"
+    "npm" : "8.3.0",
+    "node" : "17.3.0"
   },
   "scripts": {
     "build:css": "postcss src/index.css -o src/tailwind.css",
