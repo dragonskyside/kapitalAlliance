@@ -13,10 +13,10 @@ export const accordionData = [
     },
     {
       title: '4. Has this been done before ?',
-      content: `Yes. Neon DAO invests in metaverse and games, Flamingo DAO in NFTs, FriesDao buys up fast food franchises. These actually were the inspiration`
+      content: `Yes. DAo's are fast gaining traction. They have also proven that communiity investing can be quite profitable for instance, Neon DAO invests in metaverse and games, Flamingo DAO in NFTs, FriesDao buys up fast food franchises. These actually were the inspiration`
     },
     {
-      title: '5. How do we find great investments ?',
+      title: '5. How do we find investments ?',
       content: `There is an investment committee that seeks these out. It is made up of dao members. In addition we will get proposalss from contacts and partners`
     },
     {
@@ -46,7 +46,7 @@ export const accordionData = [
 
     {
       title: '12. Whats up with the NFT launch ?',
-      content: `Kapital Alliance has a pioneer series of NFTs planned for launch. Five thousand pieces are planned with a reserve price of 0.5 Eth. Proceeds from the launch will seed the treasury. Holders will receive governance tokens, have special rights within the system including a share of proceeds. Details are available on the NFT page which will be updated regularly.`
+      content: `Still on course. The pioneer series of NFTs is planned for in late March / early April. Five thousand pieces are planned with a reserve price of 0.5 Eth. Proceeds from the launch will seed the treasury. Holders will receive governance tokens, have special rights within the system including a share of proceeds. Details are available on the NFT page which will be updated regularly.`
     },
     
 

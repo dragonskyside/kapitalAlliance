@@ -11,7 +11,7 @@ function Header(props) {
   const [nav, setnav] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 300) {
+    if (window.scrollY >= 200) {
       setnav(true);
     } else {
       setnav(false);
