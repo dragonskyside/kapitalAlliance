@@ -7,7 +7,7 @@ import Hero from './Components/Hero';
 import Nft from './Components/Nft';
 import { accordionData } from './Utils/content'
 import Accordion from './Components/Accordion';
-import Miscellany from './Components/Miscellany';
+
 
 
 
@@ -30,7 +30,7 @@ function App() {
           </div>
         </div>
 
-        <Miscellany />
+        
 
  
 
