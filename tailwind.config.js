@@ -10,6 +10,9 @@ module.exports = {
         'lightblack':'#142d40',
         'deepblack' : '#031421'
       },
+      transitionProperty: {
+        'left': 'left',
+      }
     },
   },
   plugins: [],

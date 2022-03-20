@@ -1,1 +1,1 @@
-images/defi.jpeg
+{nav ? 'nav active' : 'nav'}

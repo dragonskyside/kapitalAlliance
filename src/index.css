@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 
-.nav {
-    @apply fixed font-mono text-white p-4 flex justify-center opacity-100 text-lg w-full bg-transparent
-}
-
-.nav.active {
-    @apply fixed font-mono text-white p-4 flex justify-center opacity-100 text-lg w-full bg-lightblack
-}
+@layer components {
+    .nav {
+        @apply sticky font-mono text-white p-4 flex justify-center opacity-100 text-lg w-full bg-transparent
+    }    
+    .nav.active {
+        @apply sticky font-mono text-white p-4 flex justify-center opacity-100 text-lg w-full bg-lightblack
+    }
+};
