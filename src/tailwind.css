@@ -412,11 +412,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 .nav {
-  position: sticky;
+  position: fixed;
   display: flex;
   width: 100%;
   justify-content: center;
-  background-color: transparent;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   padding: 1rem;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1.125rem;
@@ -426,7 +427,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 1;
 }
 .nav.active {
-  position: sticky;
+  position: fixed;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -448,6 +449,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .top-12 {
   top: 3rem;
+}
+.left-0 {
+  left: 0px;
+}
+.-left-full {
+  left: -100%;
 }
 .m-4 {
   margin: 1rem;
@@ -676,6 +683,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .opacity-80 {
   opacity: 0.8;
 }
+.transition-left {
+  transition-property: left;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -690,10 +702,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(249 184 63 / var(--tw-text-opacity));
 }
 @media (min-width: 768px) {
-
-  .md\:static {
-    position: static;
-  }
 
   .md\:flex {
     display: flex;

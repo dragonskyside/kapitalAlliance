@@ -5,9 +5,9 @@
 
 @layer components {
     .nav {
-        @apply sticky font-mono text-white p-4 flex justify-center opacity-100 text-lg w-full bg-transparent
+        @apply fixed font-mono text-white p-4 opacity-100 flex justify-center bg-black text-lg w-full
     }    
     .nav.active {
-        @apply sticky font-mono text-white p-4 flex justify-center opacity-100 text-lg w-full bg-lightblack
+        @apply fixed font-mono text-white p-4 flex justify-center opacity-100 text-lg w-full bg-lightblack
     }
 };

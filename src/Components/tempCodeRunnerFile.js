@@ -1,1 +1,1 @@
-{nav ? 'nav active' : 'nav'}
+<div className= { (showIcon ? "left-0" : `-left-full`) + " fixed bottom-0 top-12 bg-gray-500 bg-opacity-60 w-10/12 text-white p-2 flex flex-col"} >

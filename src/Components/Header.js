@@ -9,6 +9,9 @@ import { Link } from 'react-scroll';
 
 function Header(props) {
 
+  
+ 
+
   const [showIcon, setshowIcon] = useState(false)
 
   const [nav, setnav] = useState(false);
@@ -31,12 +34,11 @@ function Header(props) {
 
     <div className="md:flex justify-between">
 
-    
-      
-   
-  <div className= { (showIcon ? "left-0" : `-left-full`) + " md:static fixed bottom-0 top-12 bg-gray-500 bg-opacity-60 w-10/12 text-white p-2 flex flex-col"} >
+  <div className= {`fixed md:static top-12 bottom-0 bg-gray-500 bg-opacity-60 w-10/12 text-white p-2 flex flex-col md:bg-black ${ showIcon ? "left-0" : "-left-full" } md:${ nav} md:text-gray-500` }>
+
+
      
-     <Link to="home" href="#" activeClass="active" spy={true} smooth={true} duration={1200} className="inline-block p-3 text-stone hover:text-yellowsun mr-10 text-2xl font-bold">Kapital Alliance</Link>
+     <Link to="home" href="#" activeClass="active" spy={true} smooth={true} duration={1200} className="inline-block p-3 text-white hover:text-yellowsun mr-10 text-2xl font-bold">Kapital Alliance</Link>
      <Link to="home" href="#" activeClass="active" spy={true} smooth={true} duration={1200} className="inline-block p-3 text-stone hover:text-yellowsun mr-20">Home</Link>
 
      <Link to="nft" href="#" activeClass="active" spy={true} smooth={true} duration={1200}><img src="images/nft2.jpeg" alt="NFT" className='inline w-20 h-12 mr-20 rounded'></img></Link>
@@ -61,12 +63,6 @@ function Header(props) {
 </div>
 
 
-     
-
-     
-  
-     
- 
   )
 }
 
