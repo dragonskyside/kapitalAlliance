@@ -5,7 +5,7 @@ export const accordionData = [
     },
     {
       title: '2. Who can join ?',
-      content: `Anyone. It is a decentralized, permissionless DAO protocol.`
+      content: `Anyone. It is a global, decentralized, permissionless DAO protocol.`
     },
     {
       title: '3. What sort of investments will be made ?',
@@ -13,7 +13,7 @@ export const accordionData = [
     },
     {
       title: '4. Has this been done before ?',
-      content: `Yes. DAo's are fast gaining traction. They have also proven that communiity investing can be quite profitable for instance, Neon DAO invests in metaverse and games, Flamingo DAO in NFTs, FriesDao buys up fast food franchises. These actually were the inspiration`
+      content: `Yes, numerous times. DAO's are fast becoming the preferred means of organizing economic activity. Apart from well kown DAO's like Uniswap, Aave, Maker, Augur etc, there are also examples like Neon DAO which invests in metaverse and games, Flamingo DAO which buys NFTs, FriesDAO that buys up fast food franchises.`
     },
     {
       title: '5. How do we find investments ?',

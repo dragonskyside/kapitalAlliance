@@ -9,9 +9,9 @@ function Hero() {
 
         {/* Left side */}
         <div className="w-1/2 text-xl">
-            <h2 className='font-mono md:text-6xl text-center mt-24 mx-4 text-white bg-stone-800 opacity-100 hidden'>Kapital Alliance DAO</h2>
-            <p className='font-mono mx-4 mb text-white bg-black opacity-80 p-5 hidden'> A decentralized autonomous organization (DAO) for scalable investments facilitated by blockchain technology. <br/><br/> Members collectively invest in Web3 projects and high growth, cash flow positive businesses. No more missing out on opportunities or getting dumped on by whales. You can now invest as part of a community.<br/><br/><br/> Join us as we build the future of the internet with globally scalable opportunities for everyone. </p>
-            <a href="#"><button class="bg-white hover:bg-amber-200 text-black font-bold hover:scale-110 py-4 px-4 mx-4  rounded mt-8 hidden">Become a Kapitalist </button></a>
+            <h2 className='font-mono md:text-6xl text-center mt-24 mx-4 text-white bg-stone-800 opacity-100'>Kapital Alliance DAO</h2>
+            <p className='font-mono mx-4 mb text-white bg-black opacity-80 p-5 '> A decentralized autonomous organization (DAO) for scalable investments facilitated by blockchain technology. <br/><br/> Members collectively invest in Web3 projects and high growth, cash flow positive businesses. No more missing out on opportunities or getting dumped on by whales. You can now invest as part of a community.<br/><br/><br/> Join us as we build the future of the internet with globally scalable opportunities for everyone. </p>
+            <a href="#"><button class="bg-white hover:bg-amber-200 text-black font-bold hover:scale-110 py-4 px-4 mx-4  rounded mt-8 ">Become a Kapitalist </button></a>
             
         </div>
 

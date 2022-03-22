@@ -20,9 +20,8 @@ function Header(props) {
   // {nav ? 'nav active' : 'nav'}
 
   return (
-    <div className="md:flex justify-center items-center bg-black font-mono w-full opacity-85 sticky top-0 z-20 py-4">
-
-      <div className=" flex items-center justify-between p-3 text-white md:text-white hover:text-yellowsun mr-10 text-2xl font-bold">
+    <div className="md:flex justify-between items-center md:bg-black sticky top-0 z-60 py-4">
+      <div className="flex items-center justify-between">
         <Link
           to="home"
           href="#"
@@ -30,7 +29,7 @@ function Header(props) {
           spy={true}
           smooth={true}
           duration={1200}
-          
+          className="inline-block p-3 text-black md:text-white hover:text-yellowsun mr-10 text-2xl font-bold"
         >
           Kapital Alliance
         </Link>
@@ -48,10 +47,13 @@ function Header(props) {
         )}
       </div>
 
-      <div className= {(showIcon ? "left-0" : "-left-full") +
-          " md:static fixed bottom-0 top-14 md:flex text-xl items-center md:bg-transparent bg-gray-600  md:w-auto w-10/12 md:text-white text-white  p-2 transition-left"
-        }>
-
+      <div
+        // className={
+        //   (showIcon ? "left-0" : "-left-full") +
+        //   " fixed top-12 bottom-0 bg-gray-500 opacity-60 w-10/12 text-white flex flex-col"
+        // }
+        className="text-white font-mono"
+      >
         <Link
           to="home"
           href="#"
@@ -104,33 +106,22 @@ function Header(props) {
         >
           Whitepaper
         </Link>
-      
+      </div>
 
       {/* ------------------social media icons------------------------- */}
 
-     <div className="mr-5 mt-5  xl p-2 text-white">
-     <a href="https://twitter.com/kapitalalliance" >
+      <div className=" flex p-2 text-white">
+        <a href="https://twitter.com/kapitalalliance" className="mr-5 mt-5  xl">
           <FaTwitter />
         </a>
-     </div>
-
-     <div className="mr-5 mt-5 p-2 text-white">
-     <a href="#" >
+        <a href="#" className="mr-5 mt-5">
           <FaTelegram />
         </a>
-     </div>
-
-     <div className="mr-5 mt-5 p-2 text-white">
-     <a href="https://discord.gg/8rmUQYq6" >
+        <a href="https://discord.gg/8rmUQYq6" className="mr-5 mt-5">
           <FaDiscord />
         </a>
-     </div>
-
-     </div>
-        
-       
-      
-     
+      </div>
+      {/* ----------------------end ofsocial media icone------------------------------------- */}
     </div>
   );
 }
