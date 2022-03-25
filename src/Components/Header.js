@@ -49,7 +49,7 @@ function Header(props) {
       </div>
 
       <div className= {(showIcon ? "left-0" : "-left-full") +
-          " md:static fixed bottom-0 top-14 md:flex text-xl items-center md:bg-transparent bg-gray-600  md:w-auto w-10/12 md:text-white text-white  p-2 transition-left"
+          " md:static fixed bottom-0 top-14 flex text-xl items-center md:bg-transparent bg-gray-600  md:w-auto w-10/12 md:text-white text-white  p-2 transition-left"
         }>
 
         <Link

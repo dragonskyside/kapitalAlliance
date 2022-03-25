@@ -465,6 +465,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .top-12 {
   top: 3rem;
 }
+.z-20 {
+  z-index: 20;
+}
 .m-4 {
   margin: 1rem;
 }
@@ -574,6 +577,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .rounded {
   border-radius: 0.25rem;
 }
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
 .bg-lightblack {
   --tw-bg-opacity: 1;
   background-color: rgb(20 45 64 / var(--tw-bg-opacity));
@@ -586,9 +597,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
-.bg-gray-500 {
+.bg-gray-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 .bg-stone-800 {
   --tw-bg-opacity: 1;
@@ -598,8 +609,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-opacity-70 {
-  --tw-bg-opacity: 0.7;
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
@@ -692,11 +704,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
-.opacity-80 {
-  opacity: 0.8;
-}
-.opacity-100 {
-  opacity: 1;
+.opacity-90 {
+  opacity: 0.9;
 }
 .transition-left {
   transition-property: left;
@@ -732,12 +741,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:space-x-7 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1.75rem * var(--tw-space-x-reverse));
-    margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:bg-transparent {
