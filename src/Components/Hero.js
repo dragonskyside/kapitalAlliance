@@ -1,17 +1,56 @@
 import React from 'react'
+import { FaCheckSquare } from "react-icons/fa";
+
 
 
 function Hero() {
   return (
-    <div id="home" className="flex justify-between p-20 w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url(/images/people.jpeg)"}}>
+    <div id="home" className="p-20 w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url(/images/people.jpeg)"}}>
       
       
 
         {/* Left side */}
-        <div className="w-1/2 text-xl">
-            <h2 className='font-mono md:text-6xl text-center mt-24 mx-4 text-white bg-stone-800 opacity-90 rounded-t-lg p-3'>Kapital Alliance DAO</h2>
-            <p className='font-mono mx-4 mb text-white bg-stone-800 opacity-90 rounded-b-lg p-5'> A decentralized autonomous organization (DAO) for scalable investments facilitated by blockchain technology. <br/><br/> Members collectively invest in Web3 projects and high growth, cash flow positive businesses. No more missing out on opportunities or getting dumped on by whales. You can now invest as part of a community.<br/><br/><br/> Join us as we build the future of the internet with opportunities for everyone. </p>
-            <a href="#"><button class="bg-white hover:bg-amber-200 text-black font-bold hover:scale-110 py-4 px-4 mx-4  rounded mt-8 ">Become a Kapitalist </button></a>
+        <div className="w-3/4 h-3/4 md:w-1/2 text-xl">
+            <h2 className='font-mono font-bold text-lg md:text-6xl text-center  mt-18 mx-4 text-white bg-stone-800 opacity-80 rounded-t-lg p-5'>
+              Kapital Alliance DAO
+            </h2>
+
+
+            <p className='font-mono mx-4 text-white bg-stone-800 opacity-80 p-8 md:visible'> A decentralized platform for scalable investments facilitated by blockchain technology.</p>
+
+            <div className=" hidden md:flex   font-mono mx-4 text-white bg-stone-800 opacity-80  pt-2 pb-2 px-8 md:visible">
+             <FaCheckSquare />
+
+            <p className='pl-4'> Community ownership</p> 
+           
+            </div><div className=" hidden md:flex font-mono mx-4 text-white bg-stone-800 opacity-80  pt-2 pb-2 px-8 md:visible">
+             <FaCheckSquare />
+
+            <p className='pl-4'> Onchain and offchain and Assets</p> 
+           
+            </div><div className=" hidden md:flex font-mono mx-4 text-white bg-stone-800 opacity-80  pt-2 pb-2 px-8 md:visible">
+             <FaCheckSquare />
+
+            <p className='pl-4'> NFT's that vest tokens</p> 
+             </div><div className=" hidden md:flex font-mono mx-4 text-white bg-stone-800 opacity-80  pt-2 pb-6 px-8 md:visible">
+             <FaCheckSquare />
+
+            <p className='pl-4'> Backed by research</p> 
+           
+            </div>
+
+
+            <div className="md:flex justify-center">
+            <a href="#"><button class="bg-transparent opacity-100 border-2 text-white font-bold hover:scale-110 rounded md:mt-8 md:p-6 md:mr-10 ">Join Our DAO </button></a>
+            <a href="#"><button class="bg-transparent opacity-100 border-2 text-white font-bold hover:scale-110 rounded mt-8 p-6 ">Connect Wallet </button></a>
+
+            </div>
+
+
+
+
+
+            
             
         </div>
 
