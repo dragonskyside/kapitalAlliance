@@ -5,7 +5,7 @@ import { FaCheckSquare } from "react-icons/fa";
 
 function Hero() {
   return (
-    <div id="home" className="p-20 w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url(/images/people.jpeg)"}}>
+    <div id="home" className="p-20 w-full h-screen bg-cover bg-center overflow-auto" style={{ backgroundImage: "url(/images/people.jpeg)"}}>
       
       
 
@@ -16,9 +16,9 @@ function Hero() {
             </h2>
 
 
-            <p className='font-mono mx-4 text-white bg-stone-800 opacity-80 p-8 md:visible'> A decentralized platform for scalable investments facilitated by blockchain technology.</p>
+            <p className='font-mono mx-4 text-white bg-stone-800 opacity-80 p-8 md:visible'> A decentralized platform for scalable investments facilitated by blockchain technology. <br></br> Members collectively invest in web3 projects and high growth, cash flow positive businesses.<br></br> <br></br> Features:  </p>
 
-            <div className=" hidden md:flex   font-mono mx-4 text-white bg-stone-800 opacity-80  pt-2 pb-2 px-8 md:visible">
+            <div className=" hidden md:flex font-mono mx-4 text-white bg-stone-800 opacity-80  pt-2 pb-2 px-8 md:visible">
              <FaCheckSquare />
 
             <p className='pl-4'> Community ownership</p> 
@@ -36,12 +36,16 @@ function Hero() {
              <FaCheckSquare />
 
             <p className='pl-4'> Backed by research</p> 
+
+            <br></br>
            
             </div>
 
+            <p className='font-mono mx-4 text-white bg-stone-800 opacity-80 p-8 md:visible'>Join us as we build the future of the internet with globally scalable opportunities.</p>
+
 
             <div className="md:flex justify-center">
-            <a href="#"><button class="bg-transparent opacity-100 border-2 text-white font-bold hover:scale-110 rounded md:mt-8 md:p-6 md:mr-10 ">Join Our DAO </button></a>
+            <a href="#"><button class="bg-transparent opacity-100 border-2 text-white font-bold hover:scale-110 rounded md:mt-8 p-6 md:mr-10 ">Join Our DAO </button></a>
             <a href="#"><button class="bg-transparent opacity-100 border-2 text-white font-bold hover:scale-110 rounded mt-8 p-6 ">Connect Wallet </button></a>
 
             </div>

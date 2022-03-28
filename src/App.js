@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import './tailwind.css';
 import Footer from './Components/Footer';
 import Hero from './Components/Hero';
+import About from './Components/About';
 import Nft from './Components/Nft';
 import { accordionData } from './Utils/content'
 import Accordion from './Components/Accordion';
@@ -17,6 +18,8 @@ function App() {
       <Header />
 
       <Hero />
+
+      <About/>
 
       <Nft />
 

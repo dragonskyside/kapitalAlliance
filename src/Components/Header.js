@@ -65,6 +65,18 @@ function Header(props) {
         </Link>
 
         <Link
+          to="about"
+          href="#"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          duration={1200}
+          className="inline-block p-3 text-stone hover:text-yellowsun mr-20"
+        >
+          About
+        </Link>
+
+        <Link
           to="nft"
           href="#"
           activeClass="active"
