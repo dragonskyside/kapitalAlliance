@@ -14,7 +14,8 @@ import { RiPictureInPictureLine } from "react-icons/ri";
 
 function About() {
   return (
-    <div id="about" className="container font-mono h-screen mt-10 md:mt-36 mx-auto overflow-auto">
+    <div className="bg-stone-800 opacity-90 text-white">
+    <div id="about" className="container font-mono h-screen pt-10 md:pt-36 mx-auto overflow-auto md:overflow-y-clip ">
       <div className="flex flex-col justify-center">
         <h1 className="text-2xl md:text-4xl pt-4">Kapital Alliance</h1>
         <h2 className="lg:mb-8 text-xl">
@@ -69,10 +70,11 @@ function About() {
           <SiLetsencrypt className="mx-auto lg:w-10 lg:h-10" />
           <h2 className="mx-auto md:text-2xl font-bold md:pb-4">Permissionless Transactions</h2>
           <p className="text-lg pb-2">
-          100% secure aninymized investments using ZK-Snarks - because we believe in property rights and data about your investment is solely your business.
+          100% secure anonymized investments using ZK-Snarks - because we believe in property rights and data about your investment is solely your business.
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 }
