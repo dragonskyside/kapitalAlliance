@@ -16,7 +16,7 @@ function Hero() {
             </h2>
 
 
-            <p className='font-mono mx-1 font-sm md:mx-4 text-white bg-stone-800 opacity-80 p-8 md:visible'> A decentralized platform for scalable investments facilitated by blockchain technology. <br></br> Members collectively invest in web3 projects and high growth, cash flow positive businesses.<br></br> <br></br> <span className='hidden md:flex'>Features:</span>  </p>
+            <p className='font-mono text-sm md:text-xl mx-2 md:mx-4 text-white bg-stone-800 opacity-80 p-8 md:visible'> A decentralized platform for scalable investments facilitated by blockchain technology. <br></br> Members collectively invest in web3 projects and high growth, cash flow positive businesses.<br></br> <br></br> <span className='hidden md:flex'>Features:</span>  </p>
 
             <div className=" hidden md:flex font-mono mx-4 text-white bg-stone-800 opacity-80  pt-2 pb-2 px-8 md:visible">
              <FaCheckSquare />
