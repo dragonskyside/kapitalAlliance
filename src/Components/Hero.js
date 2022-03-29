@@ -10,13 +10,13 @@ function Hero() {
       
 
         {/* Left side */}
-        <div className="w-3/4 h-3/4 md:w-1/2 text-xl">
-            <h2 className='font-mono font-bold text-lg md:text-6xl text-center  mt-18 mx-4 text-white bg-stone-800 opacity-80 rounded-t-lg p-5'>
+        <div className="w-full h-full md:w-1/2 text-xl">
+            <h2 className='font-mono font-bold text-lg md:text-6xl text-center  mt-18 md:mx-4 text-white bg-stone-800 opacity-80 rounded-t-lg p-5'>
               Kapital Alliance DAO
             </h2>
 
 
-            <p className='font-mono mx-4 text-white bg-stone-800 opacity-80 p-8 md:visible'> A decentralized platform for scalable investments facilitated by blockchain technology. <br></br> Members collectively invest in web3 projects and high growth, cash flow positive businesses.<br></br> <br></br> Features:  </p>
+            <p className='font-mono mx-1 font-sm md:mx-4 text-white bg-stone-800 opacity-80 p-8 md:visible'> A decentralized platform for scalable investments facilitated by blockchain technology. <br></br> Members collectively invest in web3 projects and high growth, cash flow positive businesses.<br></br> <br></br> <span className='hidden md:flex'>Features:</span>  </p>
 
             <div className=" hidden md:flex font-mono mx-4 text-white bg-stone-800 opacity-80  pt-2 pb-2 px-8 md:visible">
              <FaCheckSquare />
@@ -41,12 +41,12 @@ function Hero() {
            
             </div>
 
-            <p className='font-mono mx-4 text-white bg-stone-800 opacity-80 p-8 md:visible'>Join us as we build the future of the internet with globally scalable opportunities.</p>
+            <p className='font-mono mx-4 text-white bg-stone-800 opacity-80 p-8 hidden md:flex'>Join us as we build the future of the internet with globally scalable opportunities.</p>
 
 
             <div className="md:flex justify-center">
-            <a href="#"><button class="bg-transparent opacity-100 border-2 text-white font-bold hover:scale-110 rounded md:mt-8 p-6 md:mr-10 ">Join Our DAO </button></a>
-            <a href="#"><button class="bg-transparent opacity-100 border-2 text-white font-bold hover:scale-110 rounded mt-8 p-6 ">Connect Wallet </button></a>
+            <a href="#"><button class="bg-transparent opacity-100 border-2 text-white font-bold hover:scale-110 hover:bg-stone-600 rounded md:mt-8 p-6 md:mr-10 ">Join Our DAO </button></a>
+            <a href="#"><button class="bg-transparent opacity-100 border-2 text-white font-bold hover:scale-110 hover:bg-stone-600 rounded mt-8 p-6 ">Connect Wallet </button></a>
 
             </div>
 

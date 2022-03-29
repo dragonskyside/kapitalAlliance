@@ -23,8 +23,8 @@ function App() {
 
       <Nft />
 
-      <div id="faq" className="min-h-screen font-bold mono cursor-pointer p-40 text-white bg-stone-800 opacity-90">
-        <h1 className='text-3xl'>Frequently Asked Questions</h1>
+      <div id="faq" className="min-h-screen font-bold mono cursor-pointer pt-5 py-3 md:p-40 text-white bg-stone-800 opacity-90">
+        <h1 className='text-3xl pl-10'>Frequently Asked Questions</h1>
         <div className="accordion text-xl text-white">
           {accordionData.map(({ title, content }) => (
             <Accordion title={title} content={content} />
