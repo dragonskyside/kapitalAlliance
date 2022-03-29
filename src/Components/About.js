@@ -19,7 +19,7 @@ function About() {
       <div className="flex flex-col justify-center">
         <h1 className="text-2xl md:text-4xl mx-auto pt-4">Kapital Alliance</h1>
         <h2 className="px-4 lg:mb-8 text-sm md:text-xl pb-4">
-        Is an innovative decentralized investment vehicle defined by innovation and ambition. Kapital Alliance DAO is programmed to not stop until the treasury reaches $100,000,000. It achieves this by investing early and aggressively in promising projects and compounding profits. The data shows that organized capital (VC's) does better than solo investors. If you ever wished you had been early and compounded profits on such projects as Bitcoin, Ethereum, Sol, Avax and others, this is the project for you. These features ae present at launch. More will be added later :
+        Is an innovative decentralized investment vehicle defined by innovation and ambition. Kapital Alliance DAO is programmed to not stop until the treasury reaches $100,000,000. It achieves this by investing early and aggressively in promising projects and compounding profits. The data shows that organized capital (VC's) does better than solo investors. If you ever wished you had been early and compounded profits on such projects as Bitcoin, Ethereum, Sol, Avax and others, this is the project for you. These features are present at launch. More are planned for later :
         </h2>
       </div>
 
