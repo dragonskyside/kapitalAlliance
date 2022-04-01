@@ -110,12 +110,13 @@ function Header(props) {
           NFT Whitelist
         </Link> */}
 
-        <Link
+        <a
+        
           href="https://app.gitbook.com/s/H7xsGAiSDv2jFFTngYwT/"
           className="inline-block p-3 text-stone hover:text-yellowsun mr-20"
         >
           Whitepaper
-        </Link>
+        </a>
       
 
       {/* ------------------social media icons------------------------- */}
