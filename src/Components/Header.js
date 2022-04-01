@@ -111,7 +111,7 @@ function Header(props) {
         </Link> */}
 
         <Link
-          href="#"
+          href="https://app.gitbook.com/s/H7xsGAiSDv2jFFTngYwT/"
           className="inline-block p-3 text-stone hover:text-yellowsun mr-20"
         >
           Whitepaper
