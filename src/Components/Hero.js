@@ -10,7 +10,7 @@ function Hero() {
       
 
         {/* Left side */}
-        <div className="w-full h-full md:w-1/2 text-xl">
+        <div className="w-full h-full mx-auto md:w-1/2 text-xl">
             <h2 className='font-mono font-bold text-lg md:text-6xl text-center  mt-18 md:mx-4 text-white bg-stone-800 opacity-80 rounded-t-lg p-5'>
               Kapital Alliance DAO
             </h2>
