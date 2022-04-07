@@ -687,9 +687,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p-2 {
   padding: 0.5rem;
 }
-.p-20 {
-  padding: 5rem;
-}
 .p-5 {
   padding: 1.25rem;
 }
@@ -698,6 +695,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .p-6 {
   padding: 1.5rem;
+}
+.p-20 {
+  padding: 5rem;
 }
 .py-3 {
   padding-top: 0.75rem;
@@ -800,8 +800,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .opacity-90 {
   opacity: 0.9;
 }
-.opacity-80 {
-  opacity: 0.8;
+.opacity-70 {
+  opacity: 0.7;
 }
 .opacity-100 {
   opacity: 1;
